@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sideL main sideR"
+        "footer footer footer";
+        height: 100%;
+        width: 100%;
+}
+
+header {
+    background-color: rgb(15, 21, 29);
+    grid-area: header;
+    height: 60px;
+}
+#sideL {
+    background-color: lightcoral;
+    grid-area: sideL;
+}
+main {
+    background-color: lightgreen;
+    grid-area: main;
+    height: 1000px;
+}
+#sideR {
+    background-color: lightgoldenrodyellow;
+    grid-area: sideR;
+}
+footer {
+    background-color: lightskyblue;
+    grid-area: footer;
+}

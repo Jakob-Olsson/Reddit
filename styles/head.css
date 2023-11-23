@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav {
+    width: 96%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "left mid right";
+}
+.headSides {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+#headLeft {
+    grid-area: left;
+    margin-right: 30px;
+}
+#headRight {
+    grid-area: right;
+    margin-left: 30px;
+}
+#hamburgerMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    padding: 9px;
+}
+#hamburgerMenu span {
+    width: 18px;
+    height: 1px;
+    background-color: white;
+}
+#logo img {
+    width: 37px;
+}
+#search {
+    grid-area: mid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search > div {
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1e3845;
+    padding: 0 20px;
+}
+#imgDiv {
+    width: auto;
+}
+#inputDiv {
+    width: 100%;
+}
+#search input {
+    width: 100%;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 15px;
+    
+}
+#search img {
+    width: 20px;
+    filter: invert(100%);
+    margin-top: 3px;
+}
+#login a {
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 60px;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+#more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    padding: 9px;
+}
+#more span {
+    background-color: white;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+}
+
