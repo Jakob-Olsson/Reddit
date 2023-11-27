@@ -2,8 +2,15 @@
 <html lang="en">
   <head>
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
     <link rel="stylesheet" href="styles/head.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <header>
@@ -20,8 +27,10 @@
         </div>
         <div id="search">
           <div>
-            <div id="imgDiv"><img src="media/search.png" alt=""></div>
-            <div id="inputDiv"><input type="text" /></div>
+            <div id="imgDiv"><img src="media/search.png" alt="" /></div>
+            <div id="inputDiv">
+              <input type="text" placeholder="Search Reddit" />
+            </div>
           </div>
         </div>
         <div class="headSides" id="headRight">
@@ -34,9 +43,17 @@
         </div>
       </nav>
     </header>
-    <section id="sideL">left</section>
-    <main></main>
-    <section id="sideR">right</section>
+
+    <section id="sideL"></section>
+
+    <main>
+      <div id="posts-main-container"></div>
+    </main>
+
+    <section id="sideR"></section>
+
     <footer>footer</footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
