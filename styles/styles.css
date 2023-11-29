@@ -20,7 +20,7 @@ header {
     height: 60px;
 }
 #sideL {
-    background-color: lightcoral;
+    background-color: #0F1A1C;
     grid-area: sideL;
 }
 main {
@@ -29,10 +29,6 @@ main {
     height: auto;
 }
 #sideR {
-    background-color: lightgoldenrodyellow;
+    background-color: #0F1A1C;
     grid-area: sideR;
-}
-footer {
-    background-color: lightskyblue;
-    grid-area: footer;
 }
